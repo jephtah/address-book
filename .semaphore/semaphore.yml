@@ -42,6 +42,6 @@ blocks:
             - npm run test
 promotions:
   - name: Dockerize
-    pipeline_file: docker_build.yml
+    pipeline_file: docker-build.yml
     auto_promote_on:
       - result: passed
