@@ -1,0 +1,7 @@
+export DB_SCHEMA=addressbook_db
+export DB_USER=addressbook_user
+export DB_PASSWORD=kwju01bpuwz2a6lt
+export DB_HOST=addressbok-cluster-do-user-8128384-0.b.db.ondigitalocean.com
+export DB_PORT=25060
+export DB_SSL=true
+export PORT=3000
