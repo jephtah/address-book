@@ -1,0 +1,29 @@
+{
+  "name": "addressbook",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "lint": "jshint app.js database*.js migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jephyjoe@bitbucket.org/africave-engineering/addressbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/africave-engineering/addressbook#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.12.0"
+  }
+}
